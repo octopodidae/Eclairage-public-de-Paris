@@ -1,0 +1,91 @@
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#myContainer {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2019rem;
+  padding: 10px;
+  border-radius: 0.25rem;
+  border: 1px solid #545b62;
+  padding-right: 15px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #d1d1d1;
+}
+
+a:focus {
+  outline: none !important;
+}
+summary:focus {
+  outline: 0 !important;
+}
+details {
+  cursor: pointer;
+}
+.svg-icon {
+  height: 22px;
+  width: 22px;
+  fill: #d1d1d1;
+  font-weight: bold;
+  position: relative;
+  top: 8px;
+  left: 8px;
+}
+#toggle {
+  position: absolute;
+  top: 98px;
+  right: -20px;
+  box-shadow: none;
+}
+.button {
+  transition: 0.75s;
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: start;
+  overflow: hidden;
+  transform: scale(0.7);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #303030;
+  color: #ededed;
+}
+.sun:hover {
+  stroke: white;
+}
+.moon:hover {
+  stroke: white;
+}
+.mover {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 72px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.75s;
+}
+.day {
+  background-color: #242424;
+}
+.night {
+  background-color: #242424;
+}
